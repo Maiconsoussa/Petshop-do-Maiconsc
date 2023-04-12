@@ -1,0 +1,99 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+  
+  }
+  .box{
+    position:absolute ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:rgb(0,0, 0, 0.8);
+    padding: 15px;
+    border-radius: 20px;
+    width: 28%;
+    color: rgb(255, 255, 255);
+   height: 76%;
+    cursor: pointer;
+  }
+
+
+
+  fieldset{
+  border: 3px solid aqua;
+  border-radius: 10px;
+  height: 500px;
+
+  }
+  legend{
+    border: 3px solid aqua;
+    padding: 8px;
+    background-color: aqua;
+    border-radius: 10px;
+    color: black;
+    
+  }
+
+  .inputbox{
+    position: relative;
+  }
+
+ 
+button{
+
+    float: right;
+    color: rgb(0, 0, 0) ;
+    background-color: aqua;
+    font-weight: bold;
+    padding: 3px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  
+}
+
+.fundo_en{
+    color: black;
+    
+}
+
+.fundo_en:hover{
+    color: white;
+    transition: all 1s;
+}
+
+.fundo_vl{
+    float: left;
+    position: fixed;
+    top: 75%;
+    left: 8%;
+  
+}
+.fundo_vl:hover{
+    color: white;
+    transition: all 1s;
+}
+
+input{
+    padding: 6px ;
+     border-radius: 7px;
+     border :none;
+     font-weight: bold;
+     outline: none;
+     font-size: 15px;
+     cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    
+   
+  
+  }
+
+
+/*media serve para o ajuste da fonte*/
+
+@media screen and (max-width: 390px){
+	body{
+		background:greenyellow;
+	}
+}
