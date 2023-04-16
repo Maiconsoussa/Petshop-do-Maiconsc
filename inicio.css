@@ -50,7 +50,7 @@ padding: 0%;
 
 }
 
-a.active, a:hover{
+li.active, li:hover{
 	background-color: rgb(0, 0, 0);
 }
 
@@ -145,6 +145,15 @@ h1{
 	
 }
 
+.fundo_verde a{
+
+	color: #fefefe;
+	text-decoration: none;
+}
+
+.fundo_verde a:hover{
+	color: aqua;
+	transition: all 2s;}
 
 /*cor q muda quando passa mouse.... Petshop*/
 .fundo_verde:hover{
