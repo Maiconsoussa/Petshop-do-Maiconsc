@@ -50,7 +50,7 @@ padding: 0%;
 
 }
 
-li.active, li:hover{
+.itemmenu:hover{
 	background-color: rgb(0, 0, 0);
 }
 
@@ -248,7 +248,7 @@ img{
 
 	border-radius: 25px;
 	cursor: pointer;
-	border: 5px black solid;
+	border: 5px rgb(0, 0, 0) solid;
 	
 	
 
@@ -394,7 +394,7 @@ margin-top: -70%;
 
 .FUNDO_MUNDO{
 	font-family: Arial, Helvetica, sans-serif;
-	color: black;
+	color: rgb(0, 0, 0);
 	display: inline-block;
 	margin-left: -20%;
 	margin-top: -5%;

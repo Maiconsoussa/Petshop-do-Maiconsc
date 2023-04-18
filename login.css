@@ -174,3 +174,24 @@ font-weight: bold;
 li.active, li:hover{
 	background-color: rgb(0, 0, 0);
 }
+
+ 
+
+.fundo_vta a{
+ text-decoration: none;
+  color: black;
+}
+
+
+.fundo_vollta a{
+  color: black;
+  text-decoration: none;
+}
+
+  .fundo_vollta:hover{
+
+    color: #ffffff;
+    transition: all 1s;
+  }
+
+

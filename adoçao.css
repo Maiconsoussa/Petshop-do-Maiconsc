@@ -7,14 +7,14 @@ body{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 	width: 100%;
-	height: 900px;
-	background-color:rgb(255, 255, 255);
-  border-radius: 50px;
-  margin-top: 11%;
-  cursor: pointer;
+	background-color: rgb(255, 255, 255);
+	border-radius: 50px;
+	cursor: pointer;
+	padding: 5%;
+	box-sizing: border-box;
 
 }
 
@@ -37,8 +37,6 @@ body{
 	padding: 20px;
 	box-sizing: border-box;
   border-radius: 20px;
-  margin-top: 8%;
-
 
 }
 
@@ -128,14 +126,21 @@ body{
 
 }
 
-.fundo_adoteme{
-
- 
-margin-left: -217%;
-margin-top: 20%;
-text-decoration: underline;
+.fundo_adotee{
+	text-decoration: underline;
+	width: 100%;
+	text-align: center;
 }
-.fundo_adoteme:hover{
+
+.fundo_adotee a{ 
+
+color: rgb(0, 0, 0) ;
+
+
+}
+
+
+.fundo_adotee:hover a {
   color:rgb(0, 87, 105) ;
   transition: all 1s;
  

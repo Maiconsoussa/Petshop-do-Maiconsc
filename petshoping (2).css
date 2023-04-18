@@ -49,11 +49,19 @@ body{
     display: flex;
     justify-content: center;
     color: black;
-   
-   
+}
+
+.fundo_goldengt{
+
+	color: aquamarine;
+    margin-top: -15%;
+    display: flex;
+    justify-content: center;
+    color: black;
 
 
 }
+
 
 
 
