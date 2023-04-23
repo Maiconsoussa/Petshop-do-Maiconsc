@@ -98,25 +98,7 @@ h1{
 
    
 
-/* chevron ponto preto canto direito inferior*/
 
-.chevron:hover{
-	box-shadow: 5px 5px 5px rgb(0, 0, 0);
-	background: rgb(255, 255, 255);
-}
- 
- .chevron {
-	background-color: #000000;
-    display: block;
-	width: 50px;
-	height: 50px;
-	border-radius: 50px;
-	right: 80px;
-	bottom: 10px;
-	position: fixed;
-	transition: all 4s;
-	cursor: pointer;
-}
 
 
 
@@ -229,8 +211,8 @@ footer  {
 	 border-radius: 200px;
 	 margin: auto;
 	 width: 700px;
-	 margin-top: 210px;
-	
+	 margin-top: 100px;
+	 
 
 
 }
@@ -405,4 +387,12 @@ margin-top: -70%;
 .FUNDO_MUNDO:hover{
 	color: white;
 	transition: all 1S;
+}
+
+.fundo_ouvi:hover{
+
+	color: aqua;
+	transition: 1s;
+
+	
 }
